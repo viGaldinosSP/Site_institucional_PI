@@ -16,7 +16,6 @@ body{
     color: white;
     display: flex;
     justify-content: space-between;
-   
 }
 .div_logo{
     display: flex;
@@ -60,13 +59,14 @@ ul a{
     justify-content: center;
     align-items: center;
 }
+/* Cadastro  */
 .card_cadastro{
     margin: auto;
 }
 .banner .card_cadastro{
-    margin-top: 25px;
+    margin-top: 15px;
     background-color: rgb(78, 185, 152);
-    height: 550px;
+    height: 520px;
     width: 400px;
     border-radius: 10px;
     display: flex;
@@ -81,6 +81,7 @@ input{
     border-radius: 4px;
 }
 .boas_vindas{
+    margin-top: 3px;
     margin-bottom: 2px;
     text-shadow: 
     -1px -1px 0px rgba(0, 0, 0, 0.712), 
@@ -95,26 +96,12 @@ h4{
      1px -1px 0px rgba(0, 0, 0, 0.712),    
      1px 0px 0px rgba(0, 0, 0, 0.712);
 }
+/* Simulador resposta  */
 #simulador_resposta{
     display: none;
 }
 #simulador{
     display: flex;
-}
-.banner .simulador {
-    margin: auto;
-    margin-top: 50px;
-    padding-left: 20px;
-    color: white;
-    
-    flex-direction: column;
-    height: 500px;
-    width: 600px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(78, 185, 151, 0.801);
-    border-radius: 10px;
-
 }
 .banner .simulador_resposta {
     margin: auto;
@@ -131,7 +118,21 @@ h4{
     border-radius: 10px;
 
 }
+.banner .simulador {
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 20px;
+    color: white;
+    
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(78, 185, 151, 0.801);
+    border-radius: 10px;
 
+}
 .btn{
     font-family: monospace;
     margin-top: 20px;
